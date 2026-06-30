@@ -1,0 +1,86 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        gold: {
+          50: '#fdfbf7',
+          100: '#faf6ed',
+          200: '#f4e4a6',
+          300: '#e5c76b',
+          400: '#d4af37',
+          500: '#c9a227',
+          600: '#b89820',
+          700: '#a0861b',
+          800: '#876a15',
+          900: '#6b5410',
+        },
+        dark: {
+          50: '#f5f5f5',
+          100: '#e8e8e8',
+          200: '#d1d1d1',
+          300: '#b4b4b4',
+          400: '#8b8b8b',
+          500: '#666666',
+          600: '#242424',
+          700: '#1e1e1e',
+          800: '#181818',
+          900: '#121212',
+        },
+        primary: {
+          50: '#fdfbf7',
+          100: '#faf6ed',
+          200: '#f4e4a6',
+          300: '#e5c76b',
+          400: '#d4af37',
+          500: '#c9a227',
+          600: '#b89820',
+          700: '#a0861b',
+          800: '#876a15',
+          900: '#6b5410',
+        },
+        premium: {
+          light: '#f4e4a6',
+          main: '#d4af37',
+          dark: '#c9a227',
+        },
+        pink: {
+          50: '#fdf2f8',
+          100: '#fce7f3',
+          200: '#fbcfe8',
+          300: '#f8a5d5',
+          400: '#f472b6',
+          500: '#ec4899',
+          600: '#db2777',
+          700: '#be185d',
+          800: '#9d174d',
+          900: '#831843',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Playfair Display', 'serif'],
+      },
+      borderRadius: {
+        'xl': '1rem',
+        '2xl': '1.5rem',
+        '3xl': '2rem',
+      },
+      boxShadow: {
+        premium: '0 20px 50px rgba(212, 175, 55, 0.15)',
+        'gold-glow': '0 0 20px rgba(212, 175, 55, 0.25)',
+        'dark-lg': '0 20px 60px rgba(0, 0, 0, 0.4)',
+        'card': '0 8px 32px rgba(0, 0, 0, 0.2)',
+        'hover': '0 15px 40px rgba(212, 175, 55, 0.2)',
+      },
+      backdrop: {
+        glass: 'rgba(24, 24, 24, 0.8)',
+      },
+    },
+  },
+  plugins: [],
+}
